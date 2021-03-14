@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #1b1b1b;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+ color: white;
+ font-size: 21px;
+}
+.game-board {
+    display: flex;  
+    flex-wrap: wrap; 
+    width: 600px;
+    height: 600px;
+}
+
+.tile {
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
